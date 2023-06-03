@@ -1,0 +1,24 @@
+{
+  "name": "workonpdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "barcode": "^0.1.0",
+    "bwip-js": "^3.4.2",
+    "express": "^4.18.2",
+    "handlebars": "^4.7.7",
+    "nunjucks": "^3.2.4",
+    "pug": "^3.0.2",
+    "puppeteer": "^20.5.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-adblocker": "^2.13.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
